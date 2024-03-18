@@ -115,7 +115,6 @@ p {
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
-
   padding: 55px;
   border-radius: 4px;
   font-size: 18px;
@@ -127,4 +126,12 @@ iframe {
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
+}
+.btn:hover {
+  background-color: #2b4353;
+}
+@media (max-size: @screen-md) {
+  h1 {
+    font-size: 10px;
+  }
 }
